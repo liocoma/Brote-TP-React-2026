@@ -1,0 +1,13 @@
+ .hero-banner { background: #e8ede2; border-radius: 24px; padding: clamp(2rem, 5vw, 4.5rem) 1.5rem; text-align: center; margin-bottom: 3rem; position: relative; overflow: hidden; }
+.hero-banner::before, .hero-banner::after { content: ''; position: absolute; width: 150px; height: 150px; border: 1px solid rgba(82,120,93,.22); border-radius: 50%; }
+.hero-banner::before { left: -55px; top: -65px; }
+.hero-banner::after { right: -45px; bottom: -85px; width: 220px; height: 220px; }
+.hero-kicker { text-transform: uppercase; letter-spacing: .18em; color: var(--primary); font-size: .78rem; font-weight: 700; margin-bottom: .8rem; }
+.hero-banner h1 { max-width: 720px; margin: 0 auto 1rem; }
+.hero-banner p:last-child { max-width: 590px; margin: 0 auto; color: var(--text-secondary); font-size: 1.05rem; }
+.section-heading { margin-bottom: .5rem; }
+.page-intro { text-align: center; color: var(--text-secondary); margin: 0 auto 1.5rem; }
+.status-message { text-align: center; padding: 3rem 1rem; color: var(--text-secondary); }
+.category-links { display: flex; justify-content: center; flex-wrap: wrap; gap: .65rem; margin: 1.6rem 0 2rem; }
+.category-links a { padding: .55rem 1rem; border: 1px solid var(--border); background: var(--surface); border-radius: 999px; font-size: .9rem; color: var(--text-secondary); transition: .2s; }
+.category-links a:hover { background: var(--primary); color: white; border-color: var(--primary); }

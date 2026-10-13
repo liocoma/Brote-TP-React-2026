@@ -1,0 +1,3 @@
+.detail-wrapper { max-width: 430px; margin: 2rem auto; }
+.detail-wrapper .card img { height: 320px; }
+.detail-wrapper .card .card-description { display: block; overflow: visible; }

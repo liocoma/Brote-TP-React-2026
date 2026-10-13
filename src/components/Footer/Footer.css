@@ -1,0 +1,7 @@
+footer { background: #263b2e; color: #f8f6ef; padding: 2rem max(5%, calc((100% - 1180px)/2)); display: flex; justify-content: space-between; align-items: center; gap: 1.5rem; flex-wrap: wrap; }
+.footer-brand span { font-family: 'Playfair Display', Georgia, serif; font-size: 1.6rem; font-weight: 700; }
+.footer-brand p, footer small { color: #c7d0c4; font-size: .82rem; }
+footer .nav-list { gap: 1.2rem; }
+footer .nav-list a { font-size: .88rem; color: #f8f6ef; }
+footer .nav-list a:hover { color: #d9a184; }
+@media (max-width: 650px) { footer { flex-direction: column; align-items: flex-start; } }

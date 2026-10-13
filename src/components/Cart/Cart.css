@@ -1,0 +1,8 @@
+.cart-container { display: flex; flex-direction: column; align-items: center; min-height: 45vh; }
+.cart-container h1 { margin-bottom: 1.5rem; }
+.cart-items-container { width: 100%; margin: 1rem 0 2rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 1.25rem; }
+.empty-cart { font-size: 1.15rem; color: var(--text-secondary); padding: 1.5rem; margin-bottom: 1rem; }
+.cart-container > p:not(.empty-cart) { margin: 1rem; }
+.cart-container > .btn { margin-bottom: 1rem; }
+.cart-container .bg-success { margin-top: 1rem; }
+.cart-container > p:last-of-type { font-weight: 700; font-size: 1.25rem; }

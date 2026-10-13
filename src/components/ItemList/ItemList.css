@@ -1,0 +1,4 @@
+.products-container { margin: 2rem 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.5rem; align-items: stretch; }
+.products-container > a { display: flex; min-width: 0; }
+@media (max-width: 850px) { .products-container { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; } }
+@media (max-width: 540px) { .products-container { grid-template-columns: 1fr; max-width: 420px; margin-inline: auto; } .card img { height: 250px; } }
